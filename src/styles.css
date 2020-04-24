@@ -1,0 +1,32 @@
+body {
+    font-size: 14px;
+}
+
+.btn-outline-secondary {
+    color: #fff;
+    background: #28a745;
+    border-width: 0;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btns .btn {
+    vertical-align: sub;
+    font-size: 0.7rem;
+    line-height: 1;
+}
+
+.btn:disabled {
+    color: #ffffff;
+    background-color: #868686;
+    border-width: 0;
+}
+
+.btn:focus,
+.form-control:focus {
+    box-shadow: none !important;
+}
