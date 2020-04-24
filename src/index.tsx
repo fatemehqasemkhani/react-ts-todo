@@ -42,8 +42,7 @@ export default function App(): JSX.Element {
 
     return todo.map((todo: ITodo, index: number) => (
       <li key={index} className="list-group-item">
-        {todo.text}
-
+        <p>{todo.text}</p>
         <div className="btns">
           <button
             onClick={() => completeTodo(index)}
@@ -80,6 +79,7 @@ export default function App(): JSX.Element {
             className="form-control"
             value={value}
             onChange={(e) => setValue(e.target.value)}
+            maxLength={60}
           />
           <div className="input-group-append">
             <button

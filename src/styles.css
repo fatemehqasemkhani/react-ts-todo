@@ -2,6 +2,10 @@ body {
     font-size: 14px;
 }
 
+p {
+    margin: 0;
+}
+
 .btn-outline-secondary {
     color: #fff;
     background: #28a745;
@@ -29,4 +33,9 @@ body {
 .btn:focus,
 .form-control:focus {
     box-shadow: none !important;
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
 }
